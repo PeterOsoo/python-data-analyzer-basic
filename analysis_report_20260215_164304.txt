@@ -1,0 +1,37 @@
+============================================================
+DATA ANALYSIS REPORT
+============================================================
+
+Dataset: test_data.csv
+Generated: 2026-02-15 16:43:04
+
+--- DATASET OVERVIEW ---
+Rows: 100
+Columns: 5
+
+--- COLUMN TYPES ---
+Date         str
+Region       str
+Product      str
+Sales      int64
+Units      int64
+
+--- STATISTICAL SUMMARY ---
+           Sales       Units
+count  100.00000  100.000000
+mean   578.30000    4.980000
+std    268.16701    2.369759
+min    110.00000    1.000000
+25%    345.75000    3.000000
+50%    613.50000    5.000000
+75%    813.75000    7.000000
+max    991.00000    9.000000
+
+--- TOP 5 ROWS ---
+         Date Region Product  Sales  Units
+0  2024-01-01  South  Widget    863      8
+1  2024-01-02  North   Gizmo    461      7
+2  2024-01-03  South  Gadget    906      3
+3  2024-01-04  South  Gadget    816      4
+4  2024-01-05  North  Gadget    398      1
+
