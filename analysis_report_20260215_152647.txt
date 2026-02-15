@@ -1,0 +1,38 @@
+============================================================
+DATA ANALYSIS REPORT
+============================================================
+
+Dataset: sample_sales_data.csv
+Generated: 2026-02-15 15:26:47
+
+--- DATASET OVERVIEW ---
+Rows: 100
+Columns: 6
+
+--- COLUMN TYPES ---
+Date       datetime64[us]
+Region                str
+Product               str
+Sales               int32
+Units               int32
+Price             float64
+
+--- STATISTICAL SUMMARY ---
+                      Date        Sales       Units       Price
+count                  100   100.000000  100.000000  100.000000
+mean   2024-02-19 12:00:00  5597.600000   50.060000  147.004500
+min    2024-01-01 00:00:00  1197.000000   11.000000   24.270000
+25%    2024-01-25 18:00:00  3309.000000   32.750000   67.535000
+50%    2024-02-19 12:00:00  5642.000000   46.500000  113.270000
+75%    2024-03-15 06:00:00  7592.750000   68.250000  199.375000
+max    2024-04-09 00:00:00  9958.000000   99.000000  832.270000
+std                    NaN  2492.181625   22.874634  122.154109
+
+--- TOP 5 ROWS ---
+        Date Region    Product  Sales  Units   Price
+0 2024-01-01   East  Product C   4627     98   47.21
+1 2024-01-02   West  Product B   6450     34  189.71
+2 2024-01-03  North  Product B   2663     27   98.63
+3 2024-01-04   East  Product B   6592     91   72.44
+4 2024-01-05   East  Product B   8392     75  111.89
+

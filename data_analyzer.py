@@ -200,8 +200,9 @@ class DataAnalyzer:
         
         plt.tight_layout()
         
-        # Save figure (cross-platform path)
-        output_file = 'analysis_dashboard.png'
+        # Save figure with timestamp (cross-platform path)
+        timestamp = pd.Timestamp.now().strftime('%Y%m%d_%H%M%S')
+        output_file = f'analysis_dashboard_{timestamp}.png'
         plt.savefig(output_file, dpi=300, bbox_inches='tight')
         print(f"✓ Dashboard saved to: {output_file}")
         plt.close()
@@ -213,7 +214,8 @@ class DataAnalyzer:
             print("No data loaded.")
             return
         
-        report_file = 'analysis_report.txt'
+        timestamp = pd.Timestamp.now().strftime('%Y%m%d_%H%M%S')
+        report_file = f'analysis_report_{timestamp}.txt'
         
         with open(report_file, 'w') as f:
             f.write("=" * 60 + "\n")
