@@ -1,0 +1,38 @@
+============================================================
+DATA ANALYSIS REPORT
+============================================================
+
+Dataset: sales.csv
+Generated: 2026-02-15 16:38:45
+
+--- DATASET OVERVIEW ---
+Rows: 9
+Columns: 6
+
+--- COLUMN TYPES ---
+Date            str
+Region          str
+Product         str
+Sales       float64
+Units         int64
+Feedback        str
+
+--- STATISTICAL SUMMARY ---
+             Sales      Units
+count     8.000000   9.000000
+mean   4525.000000  39.222222
+std    1555.405322  18.417232
+min    2500.000000  15.000000
+25%    3150.000000  25.000000
+50%    4750.000000  40.000000
+75%    5250.000000  50.000000
+max    7000.000000  70.000000
+
+--- TOP 5 ROWS ---
+         Date Region    Product   Sales  Units   Feedback
+0  2024-01-01  North  Product A  5000.0     50  Excellent
+1  2024-01-02  South  Product B  2500.0     20       Good
+2  2024-01-03   East  Product A     NaN     15    Average
+3  2024-01-04   West  Product C  7000.0     70  Excellent
+4  2024-01-05  North  Product B  3000.0     25        NaN
+
